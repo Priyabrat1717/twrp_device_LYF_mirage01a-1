@@ -17,21 +17,21 @@
 # Specify phone tech before including full_phone
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
-$(call inherit-product, device/LYF/mobee01a/full_mobee01a.mk)
+$(call inherit-product, device/LYF/mirage01a/full_mirage01a.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_NAME := omni_mobee01a
+PRODUCT_NAME := omni_mirage01a
 BOARD_VENDOR := LYF
 
 PRODUCT_GMS_CLIENTID_BASE := android-ckt
 
-TARGET_VENDOR_PRODUCT_NAME := LS-5015
-TARGET_VENDOR_DEVICE_NAME := LS-5015
-PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=LS-5015 PRODUCT_NAME=LS-5015
+TARGET_VENDOR_PRODUCT_NAME := LS-5002
+TARGET_VENDOR_DEVICE_NAME := LS-5002
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=LS-5002 PRODUCT_NAME=LS-5002
 
 # Build fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="LYF/LS-5015/LS-5015:6.0.1/MMB29M/434:user/release-keys" \
-PRIVATE_BUILD_DESC="mobee01a_msm8916_64-user 6.0.1 MMB29M 701 release-keys"
+    BUILD_FINGERPRINT="LYF/LS-5002/mirage01a_msm8939_64:5.1.1/LMY47V/455:user/release-keys" \
+PRIVATE_BUILD_DESC="mirage01a_msm8916_64-user 5.1.1 LMY47V 1004 release-keys"

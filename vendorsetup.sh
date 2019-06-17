@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_mobee01a-userdebug
-add_lunch_combo omni_mobee01a-eng
+add_lunch_combo omni_mirage01a-userdebug
+add_lunch_combo omni_mirage01a-eng

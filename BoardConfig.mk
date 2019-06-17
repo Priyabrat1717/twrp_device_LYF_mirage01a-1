@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/LYF/mobee01a
+LOCAL_PATH := device/LYF/mirage01a
 
 # Architecture
 TARGET_ARCH := arm64
