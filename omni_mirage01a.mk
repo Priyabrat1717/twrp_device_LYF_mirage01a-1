@@ -15,7 +15,7 @@
 #
 
 # Specify phone tech before including full_phone
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/pb/config/gsm.mk)
 
 $(call inherit-product, device/LYF/mirage01a/full_mirage01a.mk)
 
