@@ -69,7 +69,7 @@ Otherwise it will cause unexpected errors !!
        . build/env*
 
 
-       lunch omni_mirage01a-userdebug```
+       lunch omni_mirage01a-userdebug
   
 
        mka recoveryimage 
