@@ -66,13 +66,13 @@ Otherwise it will cause unexpected errors !!
 
 ~ Then build 
    
-    ```. build/env*
+       . build/env*
 
 
        lunch omni_mirage01a-userdebug```
   
 
-       mka recoveryimage```
+       mka recoveryimage 
 
 
 
