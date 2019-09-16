@@ -45,6 +45,8 @@ Otherwise it will cause unexpected errors !!
 
    ```git clone https://github.com/zhantech/tools_compile.git -b tools```
 
+   Then 
+
    ```bash tools_compile/setup/setup.sh && bash tools_compile/setup/ninja.sh && bash tools_compile/setup/ccache.sh```
 
 
