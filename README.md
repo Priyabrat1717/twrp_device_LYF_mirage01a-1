@@ -13,9 +13,13 @@ Otherwise it will cause unexpected errors !!
 
 
 
+
+
 ~ Then go into that dir by
 
   ```cd batik```
+
+
 
 
 
@@ -29,7 +33,11 @@ Otherwise it will cause unexpected errors !!
 
 
 
+
+
 ~ ```repo sync```
+
+
 
 
 
@@ -37,6 +45,8 @@ Otherwise it will cause unexpected errors !!
 ~ Add Folders LYF/mirage01a inside "device" of batik source
   and clone water 1 twrp tree ```git clone .... ``` from "Batik" branch 
   And add it to "batik/device/LYF/mirage01a"
+
+
 
 
 
@@ -52,15 +62,19 @@ Otherwise it will cause unexpected errors !!
 
 
 
+
+
 ~ Then build 
    
-    ```. build/env*```
+    ```. build/env*
 
 
-    ```lunch omni_mirage01a-userdebug```
+       lunch omni_mirage01a-userdebug```
   
 
-    ```mka recoveryimage```
+       mka recoveryimage```
+
+
 
 
 
