@@ -40,7 +40,7 @@ PRODUCT_COPY_FILES += \
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mirage01a
-PRODUCT_NAME := full_mirage01a
+PRODUCT_NAME := omni_mirage01a
 PRODUCT_BRAND := LYF
 PRODUCT_MODEL := LYF Water 1
 PRODUCT_MANUFACTURER := LYF
